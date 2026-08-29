@@ -1,9 +1,6 @@
 name: Deploy WebCalculator
 
-on:
-  push:
-    branches:
-      - main
+on: workflow_dispatch
 
 jobs:
   build-and-deploy:
